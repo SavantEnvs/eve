@@ -1,0 +1,6 @@
+project: savantenvs/eve
+target: fuzz-combinatorial
+cmds:
+  - cmd: /mayhem/fuzz_combinatorial
+    libfuzzer: true
+    timeout: 10

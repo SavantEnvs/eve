@@ -1,0 +1,6 @@
+project: savantenvs/eve
+target: fuzz-math
+cmds:
+  - cmd: /mayhem/fuzz_math
+    libfuzzer: true
+    timeout: 10

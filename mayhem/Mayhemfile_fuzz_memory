@@ -1,0 +1,6 @@
+project: savantenvs/eve
+target: fuzz-memory
+cmds:
+  - cmd: /mayhem/fuzz_memory
+    libfuzzer: true
+    timeout: 10
