@@ -1,0 +1,6 @@
+project: savantenvs/eve
+target: fuzz-algo
+cmds:
+  - cmd: /mayhem/fuzz_algo
+    libfuzzer: true
+    timeout: 10

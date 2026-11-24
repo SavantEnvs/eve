@@ -1,0 +1,6 @@
+project: savantenvs/eve
+target: fuzz-core
+cmds:
+  - cmd: /mayhem/fuzz_core
+    libfuzzer: true
+    timeout: 10
